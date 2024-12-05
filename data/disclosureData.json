@@ -1,0 +1,165 @@
+[
+  {
+    "disclosurePanelName": "Steel",
+    "items": [
+      {
+        "label": "Item 1",
+        "buttonData": [
+          {
+            "id": "btn1",
+            "color": "Black",
+            "src_stitch": "/Metal/Metal_Black.webp",
+            "src_stitch_view2": "/Metal_View2/Metal_Black_View2.webp"
+          },
+          {
+            "id": "btn2",
+            "color": "Fir Green",
+            "src_stitch": "/Metal/Metal_FirGreen.webp",
+            "src_stitch_view2": "/Metal_View2/Metal_FirGreen_View2.webp"
+          },
+          {
+            "id": "btn3",
+            "color": "Brown",
+            "src_stitch": "/Metal/Metal_Brown.webp",
+            "src_stitch_view2": "/Metal_View2/Metal_Brown_View2.webp"
+          },
+          {
+            "id": "btn4",
+            "color": "Grey",
+            "src_stitch": "/Metal/Metal_Grey.webp",
+            "src_stitch_view2": "/Metal_View2/Metal_Grey_View2.webp"
+          },
+          {
+            "id": "btn5",
+            "color": "Ivory",
+            "src_stitch": "/Metal/Metal_Ivory.webp",
+            "src_stitch_view2": "/Metal_View2/Metal_Ivory_View2.webp"
+          },
+          {
+            "id": "btn6",
+            "color": "Charcoal",
+            "src_stitch": "/Metal/Metal_Charcoal.webp",
+            "src_stitch_view2": "/Metal_View2/Metal_Charcoal_View2.webp"
+          },
+          {
+            "id": "btn7",
+            "color": "White",
+            "src_stitch": "/Metal/Metal_White.webp",
+            "src_stitch_view2": "/Metal_View2/Metal_White_View2.webp"
+          },
+          {
+            "id": "btn8",
+            "color": "Navy",
+            "src_stitch": "/Metal/Metal_Navy.webp",
+            "src_stitch_view2": "/Metal_View2/Metal_Navy_View2.webp"
+          },
+          {
+            "id": "btn9",
+            "color": "Bronze",
+            "src_stitch": "/Metal/Metal_Bronze.webp",
+            "src_stitch_view2": "/Metal_View2/Metal_Bronze_View2.webp"
+          },
+          {
+            "id": "btn10",
+            "color": "Pastel Blue",
+            "src_stitch": "/Metal/Metal_PastelBlue.webp",
+            "src_stitch_view2": "/Metal_View2/Metal_PastelBlue_View2.webp"
+          },
+          {
+            "id": "btn11",
+            "color": "Wine Red",
+            "src_stitch": "/Metal/Metal_WineRed.webp",
+            "src_stitch_view2": "/Metal_View2/Metal_WineRed_View2.webp"
+          },
+          {
+            "id": "btn12",
+            "color": "Tactical Green",
+            "src_stitch": "/Metal/Metal_TacticalGreen.webp",
+            "src_stitch_view2": "/Metal_View2/Metal_TacticalGreen_View2.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disclosurePanelName": "Upholstery",
+    "items": [
+      {
+        "label": "Item 2",
+        "buttonData": [
+          {
+            "id": "btn13",
+            "color": "Black Leather",
+            "src_stitch": "/Bench_Stitch/Bench_Black_Stitch.webp",
+            "src_nostitch": "/Bench_NoStitch/Bench_Black_NoStitch.webp",
+            "src_stitch_view2": "/Bench_Stitch_View2/Bench_Black_Stitch_View2.webp",
+            "src_nostitch_view2": "/Bench_NoStitch_View2/Bench_Black_NoStitch_View2.webp"
+          },
+          {
+            "id": "btn14",
+            "color": "Champagne Leather",
+            "src_stitch": "/Bench_Stitch/Bench_Champagne_Stitch.webp",
+            "src_nostitch": "/Bench_NoStitch/Bench_Champagne_NoStitch.webp",
+            "src_stitch_view2": "/Bench_Stitch_View2/Bench_Champagne_Stitch_View2.webp",
+            "src_nostitch_view2": "/Bench_NoStitch_View2/Bench_Champagne_NoStitch_View2.webp"
+          },
+          {
+            "id": "btn15",
+            "color": "Grey Leather",
+            "src_stitch": "/Bench_Stitch/Bench_Grey_Stitch.webp",
+            "src_nostitch": "/Bench_NoStitch/Bench_Grey_NoStitch.webp",
+            "src_stitch_view2": "/Bench_Stitch_View2/Bench_Grey_Stitch_View2.webp",
+            "src_nostitch_view2": "/Bench_NoStitch_View2/Bench_Grey_NoStitch_View2.webp"
+          },
+          {
+            "id": "btn16",
+            "color": "Navy Leather",
+            "src_stitch": "/Bench_Stitch/Bench_Navy_Stitch.webp",
+            "src_nostitch": "/Bench_NoStitch/Bench_Navy_NoStitch.webp",
+            "src_stitch_view2": "/Bench_Stitch_View2/Bench_Navy_Stitch_View2.webp",
+            "src_nostitch_view2": "/Bench_NoStitch_View2/Bench_Navy_NoStitch_View2.webp"
+          },
+          {
+            "id": "btn17",
+            "color": "Green Leather",
+            "src_stitch": "/Bench_Stitch/Bench_Green_Stitch.webp",
+            "src_nostitch": "/Bench_NoStitch/Bench_Green_NoStitch.webp",
+            "src_stitch_view2": "/Bench_Stitch_View2/Bench_Green_Stitch_View2.webp",
+            "src_nostitch_view2": "/Bench_NoStitch_View2/Bench_Green_NoStitch_View2.webp"
+          },
+          {
+            "id": "btn18",
+            "color": "Rustic Leather",
+            "src_stitch": "/Bench_Stitch/Bench_Rustic_Stitch.webp",
+            "src_nostitch": "/Bench_NoStitch/Bench_Rustic_NoStitch.webp",
+            "src_stitch_view2": "/Bench_Stitch_View2/Bench_Rustic_Stitch_View2.webp",
+            "src_nostitch_view2": "/Bench_NoStitch_View2/Bench_Rustic_NoStitch_View2.webp"
+          },
+          {
+            "id": "btn19",
+            "color": "Burnt Orange Leather",
+            "src_stitch": "/Bench_Stitch/Bench_BurntOrange_Stitch.webp",
+            "src_nostitch": "/Bench_NoStitch/Bench_BurntOrange_NoStitch.webp",
+            "src_stitch_view2": "/Bench_Stitch_View2/Bench_BurntOrange_Stitch_View2.webp",
+            "src_nostitch_view2": "/Bench_NoStitch_View2/Bench_BurntOrange_NoStitch_View2.webp"
+          },
+          {
+            "id": "btn20",
+            "color": "Light Brown Leather",
+            "src_stitch": "/Bench_Stitch/Bench_LightBrown_Stitch.webp",
+            "src_nostitch": "/Bench_NoStitch/Bench_LightBrown_NoStitch.webp",
+            "src_stitch_view2": "/Bench_Stitch_View2/Bench_LightBrown_Stitch_View2.webp",
+            "src_nostitch_view2": "/Bench_NoStitch_View2/Bench_LightBrown_NoStitch_View2.webp"
+          }
+        ]
+      },
+      {
+        "label": "Item 3",
+        "buttonData": [
+          { "id": "btn21", "color": "Bentley Stitch On" },
+          { "id": "btn22", "color": "Bentley Stitch Off" }
+        ]
+      }
+    ]
+  }
+]
