@@ -8,6 +8,7 @@ import NextImage from "next/image"; // Renamed import
 import Head from "next/head";
 import disclosureData from "@/data/disclosureData.json"; // Adjust the path accordingly
 import { Button } from "@nextui-org/button";
+import Link from "next/link";
 
 interface ButtonData {
   id: string;
@@ -201,7 +202,7 @@ export default function Hero() {
       />
 
       {/* Controls Section */}
-      <section className="absolute z-10 flex items-center justify-center p-3 bottom-20 left-20 mobile:bottom-36 mobile:left-36 w-44 mobile:w-32">
+      <section className="absolute z-10 flex items-center justify-center p-3 bottom-20 left-20 mobile:bottom-64 mobile:left-32 w-44 mobile:w-36">
         <div className="flex flex-row items-center justify-between w-full">
           <div className="flex flex-col items-center justify-center">
             <Button
@@ -218,7 +219,7 @@ export default function Hero() {
                 className="mobile:w-6 mobile:h-6"
               />
             </Button>
-            <p className="text-[#1d1d1d]">View</p>
+            <p className="text-[#1d1d1d] text-xs">View</p>
           </div>
           <div className="flex flex-col items-center justify-center">
             <Button
@@ -235,21 +236,27 @@ export default function Hero() {
                 className="mobile:w-6 mobile:h-6"
               />
             </Button>
-            <p className="text-[#1d1d1d]">Save</p>
+            <p className="text-[#1d1d1d] text-xs">Save</p>
           </div>
         </div>
       </section>
 
       {/* Logo Section */}
       <section className="absolute flex items-center justify-center p-3 -top-20 mobile:-top-20 mobile:left-1">
-        <NextImage
-          alt="SPX Logo"
-          className="object-contain w-56 h-56"
-          src="/Logo.png"
-          width={437}
-          height={106}
-          priority // Ensures the logo loads immediately
-        />
+        <Link
+          href="https://www.spxfit.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <NextImage
+            alt="SPX Logo"
+            className="object-contain w-56 h-56 mobile:w-28 mobile:h-44"
+            src="/Logo.png"
+            width={437}
+            height={106}
+            priority // Ensures the logo loads immediately
+          />
+        </Link>
       </section>
     </div>
   );

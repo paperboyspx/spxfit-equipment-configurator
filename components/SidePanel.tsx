@@ -30,8 +30,8 @@ export default function SidePanel({
 
   return isMobileView ? (
     <>
-      <section className="fixed z-20 flex flex-col items-center justify-center w-full p-4 top-40">
-        <h1 className="text-2xl text-[#979f7e] pt-2 ">Chest Press PL</h1>
+      <section className="fixed z-20 flex flex-col items-center justify-center w-full p-4 top-0">
+        <h1 className="text-md text-[#979f7e] pt-2 ">Chest Press PL</h1>
         <Divider className="w-10/12 h-[1px] my-1 bg-[#979f7e]" />
       </section>
       <section className="fixed bottom-0 z-20 flex items-center justify-center w-full p-4">

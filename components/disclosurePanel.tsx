@@ -128,11 +128,11 @@ export default function DisclosurePanel({
           </Button>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <div className="text-[#979f7e] text-xl font-semibold">
+          <div className="text-[#979f7e] text-md font-semibold">
             {/* Display the current panel's disclosurePanelName */}
             {currentPanelName}
           </div>
-          <div className="text-[#979f7e] text-medium">
+          <div className="text-[#979f7e] text-md">
             {/* Display the current selected color name */}
             {activeButtonColors[
               getItemKey(currentPanelName, currentItem.label)
@@ -173,7 +173,7 @@ export default function DisclosurePanel({
                 : "opacity-0 pointer-events-none"
             }`}
           >
-            <div className="flex items-center justify-center w-full h-full">
+            <div className="flex items-center justify-center w-full h-full overflow-y-hidden">
               <div className="max-w-full p-0 overflow-x-auto">
                 <Item
                   ButtonDataList={itemData.item.buttonData}
