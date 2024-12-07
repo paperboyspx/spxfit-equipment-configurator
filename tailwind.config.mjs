@@ -11,6 +11,8 @@ export default {
     extend: {
       screens: {
         mobile: { max: "430px" }, // Custom screen size for 430px and below
+        laptop: { max: "1800px" }, // Custom desktop size for 1920px and below
+        macbook: { max: "1600px" }, // Custom desktop size for 1600px and below
       },
       scale: {
         175: "1.75",
