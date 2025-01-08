@@ -55,18 +55,18 @@ export default function Hero() {
       // Update bench image
       const benchPath = activeBenchImage.includes("_Stitch")
         ? activeBenchImage
-            .replace("/Bench_Stitch/", "/Bench_Stitch_View2/")
-            .replace(".webp", "_View2.webp")
+          .replace("/Bench_Stitch/", "/Bench_Stitch_View2/")
+          .replace(".webp", "_View2.webp")
         : activeBenchImage
-            .replace("/Bench_NoStitch/", "/Bench_NoStitch_View2/")
-            .replace(".webp", "_View2.webp");
+          .replace("/Bench_NoStitch/", "/Bench_NoStitch_View2/")
+          .replace(".webp", "_View2.webp");
       const regularBenchPath = activeBenchImage.includes("_Stitch_View2")
         ? activeBenchImage
-            .replace("/Bench_Stitch_View2/", "/Bench_Stitch/")
-            .replace("_View2.webp", ".webp")
+          .replace("/Bench_Stitch_View2/", "/Bench_Stitch/")
+          .replace("_View2.webp", ".webp")
         : activeBenchImage
-            .replace("/Bench_NoStitch_View2/", "/Bench_NoStitch/")
-            .replace("_View2.webp", ".webp");
+          .replace("/Bench_NoStitch_View2/", "/Bench_NoStitch/")
+          .replace("_View2.webp", ".webp");
       setActiveBenchImage(newView2 ? benchPath : regularBenchPath);
 
       return newView2;
