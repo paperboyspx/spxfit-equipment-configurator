@@ -202,7 +202,7 @@ export default function Hero() {
       />
 
       {/* Controls Section */}
-      <section className="absolute z-10 flex items-center justify-center p-3 bottom-20 left-20 mobile:bottom-64 mobile:left-0 w-44 mobile:w-36">
+      <section className="absolute z-10 flex items-center justify-center p-3 bottom-20 left-20 mobile:bottom-52 mobile:left-0 w-44 mobile:w-36">
         <div className="flex flex-row items-center justify-between w-full">
           <div className="flex flex-col items-center justify-center">
             <Button

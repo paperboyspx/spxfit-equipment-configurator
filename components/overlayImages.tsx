@@ -62,13 +62,13 @@ export default function OverlayImages({
     <>
       <img
         alt="Metal"
-        className="object-contain w-full h-full transform pointer-events-none select-none mobile:scale-215 mobile:px-1 mobile:pb-32"
+        className="object-contain w-full h-full transform pointer-events-none select-none mobile:scale-215 mobile:px-1 mobile:pb-28"
         src={currentImages.steel}
         draggable={false}
       />
       <img
         alt="Upholstery"
-        className="absolute top-0 left-0 object-contain w-full h-full transform pointer-events-none select-none mobile:scale-215 mobile:px-1 mobile:pb-32"
+        className="absolute top-0 left-0 object-contain w-full h-full transform pointer-events-none select-none mobile:scale-215 mobile:px-1 mobile:pb-28"
         src={currentImages.bench}
         draggable={false}
       />

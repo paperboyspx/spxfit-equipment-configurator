@@ -34,7 +34,7 @@ export default function SidePanel({
         <h1 className="text-md text-[#979f7e] pt-2 ">Chest Press PL</h1>
         <Divider className="w-10/12 h-[1px] my-1 bg-[#979f7e]" />
       </section>
-      <section className="fixed bottom-0 mobile:bottom-20 z-20 flex items-center justify-center w-full p-4">
+      <section className="fixed bottom-0 mobile:bottom-16 z-20 flex items-center justify-center w-full p-4">
         {/* Mobile View Carousel */}
         <DisclosurePanel
           disclosureData={disclosureData}
